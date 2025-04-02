@@ -3,7 +3,7 @@ import React from 'react';
 
 const Projects = () => {
     const projectList = [
-        { name: 'HSBC Capital Management and Stress Testing Manage', description: '2023 - Current' },
+        { name: 'HSBC Capital Management and Stress Testing Manager', description: '2023 - Current' },
         { name: 'BOCHK Credit Risk Modelling Manager', description: '2021 - 2023' },
         { name: 'CCBA Credit Risk Manger', description: '2018 - 2021' },
     ];
