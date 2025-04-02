@@ -3,14 +3,14 @@ import React from 'react';
 
 const Projects = () => {
     const projectList = [
-        { name: 'Project 1', description: 'Description of Project 1' },
-        { name: 'Project 2', description: 'Description of Project 2' },
-        { name: 'Project 3', description: 'Description of Project 3' },
+        { name: 'HSBC Capital Management and Stress Testing Manage', description: '2023 - Current' },
+        { name: 'BOCHK Credit Risk Modelling Manager', description: '2021 - 2023' },
+        { name: 'CCBA Credit Risk Manger', description: '2018 - 2021' },
     ];
 
     return (
         <section id="projects">
-            <h2>My Projects</h2>
+            <h2>My Work Experience</h2>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
                 {projectList.map((project, index) => (
                     <div key={index} style={{ padding: '10px', border: '1px solid #ddd', borderRadius: '5px' }}>
